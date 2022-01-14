@@ -2,56 +2,60 @@
     "jsonid":1,
     "type":"video",
     "source":"https://imgur.com/gallery/KZlURIy",
+    "thumb":"f1eG2yN",
+    "note":"",
+    "category":["Respect"],
+    "details":["Date of Launch","Other"],
     "videos":[
         {
             "id":1,
             "title":"Never judge a book 📚 by it's cover - 1...",
-            "videourl":"https://i.imgur.com/f1eG2yN.mp4"
+            "imgurid":"f1eG2yN"
         },
         {
             "id":2,
             "title":"Respect ++ - CreateevMinutes #2...",
-            "videourl":"https://i.imgur.com/4lhTHlv.mp4"
+            "imgurid":"4lhTHlv"
         },
         {
             "id":3,
             "title":"Respect ++ - CreateevMinutes #3...",
-            "videourl":"https://i.imgur.com/O6j9sya.mp4"
+            "imgurid":"O6j9sya"
         },
         {
             "id":4,
             "title":"Respect ++ - CreateevMinutes #4...",
-            "videourl":"https://i.imgur.com/Tt8v4hx.mp4"
+            "imgurid":"Tt8v4hx"
         },
         {
             "id":5,
             "title":"Respect ++ - CreateevMinutes #5...",
-            "videourl":"https://i.imgur.com/HZdPXmM.mp4"
+            "imgurid":"HZdPXmM"
         }, 
         {
             "id":6,
             "title":"Respect ++ - CreateevMinutes #6...",
-            "videourl":"https://i.imgur.com/5seLKZQ.mp4"
+            "imgurid":"5seLKZQ"
         },
         {
             "id":7,
             "title":"Respect ++ - CreateevMinutes #7...",
-            "videourl":"https://i.imgur.com/TsrS9UM.mp4"
+            "imgurid":"TsrS9UM"
         },
         {
             "id":8,
             "title":"Respect ++ - CreateevMinutes #8...",
-            "videourl":"https://i.imgur.com/JAxvDq2.mp4"
+            "imgurid":"JAxvDq2"
         },
         {
             "id":9,
             "title":"Respect ++ - CreateevMinutes #9...",
-            "videourl":"https://i.imgur.com/1oYcoEQ.mp4"
+            "imgurid":"1oYcoEQ"
         },
         {
             "id":10,
             "title":"Respect ++ - CreateevMinutes #10...",
-            "videourl":"https://i.imgur.com/vja0ULH.mp4"
+            "imgurid":"vja0ULH"
         }
     ]
 }

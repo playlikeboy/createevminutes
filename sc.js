@@ -11,7 +11,7 @@ video.onloadeddata = function(){
 }
 //Functions 
 function init(){
-  video.src = videojson.videos[0].videourl;
+  video.src = "https://i.imgur.com/"+videojson.videos[0].imgurid+".mp4";
   title.innerHTML = videojson.videos[0].title;
   
 }
@@ -24,7 +24,7 @@ function next(){
 },1000) 
   if(currentvideo == 9) back();
   let id = videojson.videos[currentvideo + 1];
-  video.src = id.videourl;
+  video.src = "https://i.imgur.com/"+id.imgurid+".mp4";
   title.innerHTML = id.title;
   currentvideo = currentvideo + 1;
   fill();
@@ -33,7 +33,7 @@ function next(){
 function prev(){
   if(currentvideo == 0) back();
   let id = videojson.videos[currentvideo - 1];
-  video.src = id.videourl;
+  video.src = "https://i.imgur.com/"+id.imgurid+".mp4";
   title.innerHTML = id.title;
   currentvideo = currentvideo - 1;
   fill();
@@ -59,5 +59,5 @@ function back(){
 }
 
 function share(){
-  window.location.href = videojson.videos[currentvideo].videourl;
+  window.location.href = "https://i.imgur.com/"+ videojson.videos[currentvideo].imgurid +".mp4";
 }
